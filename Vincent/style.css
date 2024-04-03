@@ -1,0 +1,130 @@
+body {
+    background-image: url('black.webp');
+    background-size: 2500px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.calc {
+    margin: auto;
+    background-image: url('gray.jpg');
+    width: 29%;
+    height: 930px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px;
+}
+
+.maininput {
+    background-color: rgb(35, 35, 35);
+    border: 1px solid #333;
+    height: 100px;
+    width: 98.2%;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+.numbtn {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(59, 89, 152); /* Dark Blue */
+    color: white;
+    border: 2px solid #29487d;
+}
+
+.numbtn:hover {
+    background-color: rgb(33, 64, 117); /* Darker Blue */
+    color: whitesmoke;
+}
+
+.calbtn {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 30px;
+    background-color: rgb(192, 57, 43); /* Dark Red */
+    color: white;
+    border: 2px solid #b37ebd;
+}
+
+.calbtn:hover {
+    background-color: rgb(150, 45, 34); /* Darker Red */
+    color: whitesmoke;
+}
+
+.c {
+    padding: 58px 62px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(169, 68, 66); /* Dark Red */
+    color: white;
+    border: 2px solid #a556a5;
+}
+
+.c:hover {
+    background-color: rgb(133, 53, 52); /* Darker Red */
+    color: whitesmoke;
+}
+
+.ce {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(255, 140, 0); /* Dark Orange */
+    color: white;
+}
+
+.ce:hover {
+    background-color: rgb(204, 115, 0); /* Darker Orange */
+    color: whitesmoke;
+}
+
+.equal {
+    padding: 50px 55px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    background-color: rgb(34, 139, 34); /* Dark Green */
+    color: white;
+    border: 2px solid #228b22;
+}
+
+.equal:hover {
+    background-color: rgb(28, 112, 28); /* Darker Green */
+    color: whitesmoke;
+}
+
+/* Style for the modulo (%) button */
+.calbtn.modulo {
+    background-color: rgb(70, 130, 180); /* Steel Blue */
+    color: white;
+}
+
+.calbtn.modulo:hover {
+    background-color: rgb(30, 105, 150); /* Darker Steel Blue */
+}
+
+/* Style for the positive/negative sign toggle button */
+.calbtn.toggle {
+    background-color: rgb(218, 165, 32); /* Goldenrod */
+    color: black;
+    outline: none; /* Add this line to remove the outline */
+}
+
+.calbtn.toggle:hover {
+    background-color: rgb(184, 134, 11); /* Darker Goldenrod */
+}
+
+/* Style for the decimal point (.) button */
+.numbtn.decimal {
+    background-color: rgb(70, 130, 180);
+    color: white;
+}
+
+.numbtn.decimal:hover {
+    background-color: rgb(50, 50, 50); /* Darker Gray */
+}
